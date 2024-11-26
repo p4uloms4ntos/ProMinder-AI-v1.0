@@ -24,7 +24,10 @@ Bem-vindo à ProM AI, um assistente inteligente projetado para interagir com div
    ___________________________________________________
   <br>
 
-   * **Adaptação às necessidades do usuário**, como diálogos rápidos ou análises profundas, em versões diferentes de LLM´s, centralizada em um único ambiente.
+   * **Acesso a modelos poderoso da OPEN AI**, pagando por apenas o que consumir (*sem necessidade de assinatura mensal*).
+
+
+   * **Adaptação às necessidades do usuário**, como diálogos rápidos ou análises profundas, em versões diferentes de LLM´s (pagas e gratuitas), centralizada em um único ambiente.
 
 2. Código Aberto e Extensível
    * Código disponível no GitHub, permitindo personalizações, melhorias e integração com outras ferramentas.
@@ -65,7 +68,7 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
 ```
 
-2. Inicialize o Streamlit
+2. Inicialize o Streamlit<br><br>
 Execute o comando:
 
 ```python
@@ -78,9 +81,10 @@ streamlit run app.py
 
 4. Configure o modelo
 
-   * Escolha o provedor (e.g., OpenAI ou Groq).
+   * Escolha o provedor (OpenAI ou Groq).
    * Selecione o modelo desejado.
    * Insira a chave da API correspondente.
+   * Clique em inicializar Chat.
 
 5. Interaja com o chat ProM AI
 
