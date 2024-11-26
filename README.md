@@ -6,7 +6,7 @@ Bem-vindo à ProM AI, um assistente inteligente projetado para interagir com div
 ## Principais Vantagens
 
 1. Flexibilidade na Escolha de Modelos de Linguagem
-   * Integração com múltiplos provedores de IA, como OpenAI e Groq. *(Outros modelos serão disponibilizados em breve)*
+   * **Integração com múltiplos provedores de IA**, como OpenAI e Groq. *(Outros modelos serão disponibilizados em breve)*
 
    <br><br>
 
@@ -15,8 +15,8 @@ Bem-vindo à ProM AI, um assistente inteligente projetado para interagir com div
    ___________________________________________________
    <br><br>
 
-   * Suporte a diferentes modelos de linguagem, oferecendo opções que variam em precisão, custo e performance.
-   
+   * **Suporte a diferentes modelos de linguagem**, oferecendo opções que variam em precisão, custo e performance.
+
    <br>
 
    ![imagem](Imagens/Selecao-do-Modelo.png)
@@ -24,7 +24,7 @@ Bem-vindo à ProM AI, um assistente inteligente projetado para interagir com div
    ___________________________________________________
   <br>
 
-   * Adaptação às necessidades do usuário, como diálogos rápidos ou análises profundas.
+   * **Adaptação às necessidades do usuário**, como diálogos rápidos ou análises profundas, em versões diferentes de LLM´s, centralizada em um único ambiente.
 
 2. Código Aberto e Extensível
    * Código disponível no GitHub, permitindo personalizações, melhorias e integração com outras ferramentas.
