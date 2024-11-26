@@ -9,11 +9,15 @@ Bem-vindo à ProM AI, um assistente inteligente projetado para interagir com div
    * Integração com múltiplos provedores de IA, como OpenAI e Groq. *(Outros modelos serão disponibilizados em breve)*
    <br><br><br>
    ![imagem](Imagens/Selecao-do-Provedor.png)
-   <br><br><br>
+   <br>
+   ___________________________________________________
+   <br><br>
    * Suporte a diferentes modelos de linguagem, oferecendo opções que variam em precisão, custo e performance.
    <br><br><br>
    ![imagem](Imagens/Selecao-do-Modelo.png)
-   <br><br><br>
+   <br>
+   ___________________________________________________
+   <br><br>
    * Adaptação às necessidades do usuário, como diálogos rápidos ou análises profundas.
 
 2. Código Aberto e Extensível
