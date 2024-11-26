@@ -14,14 +14,16 @@ Bem-vindo à ProM AI, um assistente inteligente projetado para interagir com div
    <br>
    ___________________________________________________
    <br><br>
+
    * Suporte a diferentes modelos de linguagem, oferecendo opções que variam em precisão, custo e performance.
-   <br><br><br>
+   
+   <br>
 
    ![imagem](Imagens/Selecao-do-Modelo.png)
 
-   <br><br>
    ___________________________________________________
-   <br><br>
+  <br>
+
    * Adaptação às necessidades do usuário, como diálogos rápidos ou análises profundas.
 
 2. Código Aberto e Extensível
