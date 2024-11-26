@@ -1,11 +1,19 @@
 # ProMinder AI v1.0
 Bem-vindo à ProM AI, um assistente inteligente projetado para interagir com diversos formatos de arquivos e responder perguntas de forma precisa e dinâmica. O ProM utiliza modelos de linguagem avançados e técnicas de processamento de dados para oferecer respostas baseadas em documentos fornecidos pelo usuário.
 
+![imagem](Imagens/Upload-de-Arquivos.png)
+
 ## Principais Vantagens
 
 1. Flexibilidade na Escolha de Modelos de Linguagem
    * Integração com múltiplos provedores de IA, como OpenAI e Groq. *(Outros modelos serão disponibilizados em breve)*
+   <br><br><br>
+   ![imagem](Imagens/Selecao-do-Provedor.png)
+   <br><br><br>
    * Suporte a diferentes modelos de linguagem, oferecendo opções que variam em precisão, custo e performance.
+   <br><br><br>
+   ![imagem](Imagens/Selecao-do-Modelo.png)
+   <br><br><br>
    * Adaptação às necessidades do usuário, como diálogos rápidos ou análises profundas.
 
 2. Código Aberto e Extensível
