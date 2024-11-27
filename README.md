@@ -1,5 +1,5 @@
 # ProMinder AI v1.0
-Bem-vindo à ProM AI, um assistente inteligente projetado para interagir com diversos formatos de arquivos e responder perguntas de forma precisa e dinâmica. O ProM utiliza modelos de linguagem avançados e técnicas de processamento de dados para oferecer respostas baseadas em documentos fornecidos pelo usuário.
+Bem-vindo ao ProM AI, uma solução inteligente projetada para otimizar a interação com diferentes formatos de conteúdo e oferecer respostas precisas e dinâmicas. Utilizando modelos de linguagem avançados, o ProM AI é capaz de ler e interpretar informações de documentos em PDF, CSV e Excel, extrair dados relevantes de páginas da web e interagir diretamente com vídeos do YouTube, oferecendo resumos detalhados e respostas relacionadas ao conteúdo. Combinando técnicas sofisticadas de processamento de dados, o ProM-AI centraliza diversos modelos de LLM, desde modelos gratuitos a pagos em um unico ambiente, permitindo verificacao dos varios resultados possiveis entregues pelos principais modelos de LLM disponivel no mercado.
 
 ![imagem](Imagens/Upload-de-Arquivos.png)
 
@@ -15,7 +15,7 @@ Bem-vindo à ProM AI, um assistente inteligente projetado para interagir com div
    ___________________________________________________
    <br><br>
 
-   * **Suporte a diferentes modelos de linguagem**, oferecendo opções que variam em precisão, custo e performance.
+   * **Suporte a diferentes provedores de linguagem**, oferecendo opções que variam em precisão, custo e performance.
 
    <br>
 
@@ -24,7 +24,7 @@ Bem-vindo à ProM AI, um assistente inteligente projetado para interagir com div
    ___________________________________________________
   <br>
 
-   * **Acesso a modelos poderoso da OPEN AI**, pagando por apenas o que consumir (*sem necessidade de assinatura mensal*).
+   * **Acesso a modelos poderoso da OPEN AI**, pagando por apenas o que consumir (*sem necessidade de assinatura mensal*), oferencendo opcoes que variam em 
 
 
    * **Adaptação às necessidades do usuário**, como diálogos rápidos ou análises profundas, em versões diferentes de LLM´s (pagas e gratuitas), centralizada em um único ambiente.
