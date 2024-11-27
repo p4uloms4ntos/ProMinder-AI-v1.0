@@ -24,7 +24,7 @@ Bem-vindo ao ProM AI, uma solução inteligente projetada para otimizar a intera
    ___________________________________________________
   <br>
 
-   * **Acesso a modelos poderoso da OPEN AI**, pagando por apenas o que consumir (*sem necessidade de assinatura mensal*), oferencendo opcoes que variam em 
+   * **Acesso a modelos poderoso da OPEN AI**, pagando por apenas o que consumir (*sem necessidade de assinatura mensal*). 
 
 
    * **Adaptação às necessidades do usuário**, como diálogos rápidos ou análises profundas, em versões diferentes de LLM´s (pagas e gratuitas), centralizada em um único ambiente.
