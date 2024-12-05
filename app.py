@@ -10,9 +10,11 @@ from langchain.prompts import ChatPromptTemplate
 
 from loaders import *
 
+st.set_page_config(layout="wide",page_title='ProMinderAi - 1.0', page_icon='🚀')
+
 
 TIPOS_ARQUIVOS_VALIDOS = [
-    'Site', 'Youtube', 'Pdf', 'Csv', 'Txt','Chat'
+    'Site', 'Youtube', 'Pdf', 'Csv', 'Txt','Chat','Excel','Doc' #M
 ]
 
 CONFIG_MODELOS = {'Groq': 
@@ -78,6 +80,8 @@ def carrega_modelo(provedor, modelo, api_key, tipo_arquivo, arquivo):
     st.session_state['chain'] = chain
 
 def pagina_chat():
+
+
     st.header('Bem-vindo ao ProMinder AI', divider=True)
 
     chain = st.session_state.get('chain')
@@ -112,7 +116,7 @@ def sidebar():
         if tipo_arquivo == 'Site':
             arquivo = st.text_input('Digite a url do site')
         if tipo_arquivo == 'Youtube':
-            arquivo = st.text_input('Digite a url do vídeo')
+            arquivo = st.text_input('Digite o ID do vídeo')
         if tipo_arquivo == 'Pdf':
             arquivo = st.file_uploader('Faça o upload do arquivo pdf', type=['.pdf'])
         if tipo_arquivo == 'Csv':
@@ -132,11 +136,19 @@ def sidebar():
     if st.button('Apagar Histórico de Conversa', use_container_width=True):
         st.session_state['memoria'] = MEMORIA
 
+    st.sidebar.markdown("Desenvolvido por [Paulo Moreira](https://github.com/p4uloms4ntos)")
+
+
+
 def main():
     with st.sidebar:
         sidebar()
     pagina_chat()
+    
+
 
 
 if __name__ == '__main__':
     main()
+
+    
