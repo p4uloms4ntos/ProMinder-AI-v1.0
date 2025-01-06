@@ -1,0 +1,9 @@
+.venv
+*.zip
+__pycache__
+.gitignore
+.env
+Imagens/
+.git
+requirements.txt
+README.md

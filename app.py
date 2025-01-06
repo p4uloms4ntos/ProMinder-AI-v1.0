@@ -7,14 +7,12 @@ from langchain_groq import ChatGroq
 from langchain_openai import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
 
-
 from loaders import *
 
 st.set_page_config(layout="wide",page_title='ProMinderAi - 1.0', page_icon='🚀')
 
-
 TIPOS_ARQUIVOS_VALIDOS = [
-    'Site', 'Youtube', 'Pdf', 'Csv', 'Txt','Chat','Excel','Doc' #M
+    'Site', 'Youtube', 'Pdf', 'Csv', 'Txt'
 ]
 
 CONFIG_MODELOS = {'Groq': 
@@ -52,7 +50,7 @@ def carrega_modelo(provedor, modelo, api_key, tipo_arquivo, arquivo):
 
     documento = carrega_arquivos(tipo_arquivo, arquivo)
 
-    system_message = '''Você é um assistente amigável chamado ProMinder AI.
+    system_message = '''Você é um assistente amigável chamado ProMinderAI.
     Você possui acesso às seguintes informações vindas 
     de um documento {}: 
 
@@ -62,10 +60,10 @@ def carrega_modelo(provedor, modelo, api_key, tipo_arquivo, arquivo):
 
     Utilize as informações fornecidas para basear as suas respostas.
 
-    Sempre que houver $ na sua saída, substita por S.
+    Sempre que houver $ na sua saída, substitua por S.
 
     Se a informação do documento for algo como "Just a moment...Enable JavaScript and cookies to continue" 
-    sugira ao usuário carregar novamente o Oráculo!'''.format(tipo_arquivo, documento)
+    sugira ao usuário carregar novamente o ProMinderAI!'''.format(tipo_arquivo, documento)
 
     print(system_message)
 
@@ -80,13 +78,11 @@ def carrega_modelo(provedor, modelo, api_key, tipo_arquivo, arquivo):
     st.session_state['chain'] = chain
 
 def pagina_chat():
-
-
-    st.header('Bem-vindo ao ProMinder AI', divider=True)
+    st.header('Bem-vindo ao ProMinderAI', divider=True)
 
     chain = st.session_state.get('chain')
     if chain is None:
-        st.error('Carregue as informacoes e inicialize o chat')
+        st.error('Carregue o ProMinder')
         st.stop()
 
     memoria = st.session_state.get('memoria', MEMORIA)
@@ -94,7 +90,7 @@ def pagina_chat():
         chat = st.chat_message(mensagem.type)
         chat.markdown(mensagem.content)
 
-    input_usuario = st.chat_input('Fale com a ProM AI')
+    input_usuario = st.chat_input('Fale com o oráculo')
     if input_usuario:
         chat = st.chat_message('human')
         chat.markdown(input_usuario)
@@ -116,7 +112,7 @@ def sidebar():
         if tipo_arquivo == 'Site':
             arquivo = st.text_input('Digite a url do site')
         if tipo_arquivo == 'Youtube':
-            arquivo = st.text_input('Digite o ID do vídeo')
+            arquivo = st.text_input('Digite a url do vídeo')
         if tipo_arquivo == 'Pdf':
             arquivo = st.file_uploader('Faça o upload do arquivo pdf', type=['.pdf'])
         if tipo_arquivo == 'Csv':
@@ -131,24 +127,16 @@ def sidebar():
             value=st.session_state.get(f'api_key_{provedor}'))
         st.session_state[f'api_key_{provedor}'] = api_key
     
-    if st.button('Inicializar chat', use_container_width=True):
+    if st.button('Inicializar Oráculo', use_container_width=True):
         carrega_modelo(provedor, modelo, api_key, tipo_arquivo, arquivo)
     if st.button('Apagar Histórico de Conversa', use_container_width=True):
         st.session_state['memoria'] = MEMORIA
-
-    st.sidebar.markdown("Desenvolvido por [Paulo Moreira](https://github.com/p4uloms4ntos)")
-
-
 
 def main():
     with st.sidebar:
         sidebar()
     pagina_chat()
-    
-
 
 
 if __name__ == '__main__':
     main()
-
-    
