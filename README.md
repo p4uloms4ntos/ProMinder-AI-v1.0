@@ -1,6 +1,6 @@
 # ProMinder AI v1.0
 Bem-vindo ao ProM AI, uma solução inteligente projetada para otimizar a interação com diferentes formatos de conteúdo e oferecer respostas precisas e dinâmicas. Utilizando modelos de linguagem avançados, o ProM AI é capaz de ler e interpretar informações de documentos em PDF, CSV e Excel, extrair dad
-os relevantes de páginas da web e interagir diretamente com vídeos do YouTube, oferecendo resumos detalhados e respostas relacionadas ao conteúdo. Combinando técnicas sofisticadas de processamento de dados, o ProM-AI centraliza diversos modelos de LLM, desde modelos gratuitos a pagos em um unico ambiente, permitindo verificacao dos varios resultados possiveis entregues pelos principais modelos de LLM disponivel no mercado.
+os relevantes de páginas da web e interagir diretamente com vídeos do YouTube, oferecendo resumos detalhados e respostas relacionadas ao conteúdo. Combinando técnicas sofisticadas de processamento de dados, o ProM-AI centraliza diversos modelos de LLM, desde modelos gratuitos a pagos em um unico ambiente, permitindo verificacao dos varios resultados possiveis entregues pelos principais modelos de LLM disponivel no mercado...
 
 ![imagem](Imagens/Upload-de-Arquivos.png)
 
